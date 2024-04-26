@@ -1,7 +1,7 @@
 %% MIT License
 %%
-%% Version 2.0, 2023/04/10
-%% Copyright (c) 2013-2023 Máté Cserép <mcserep@inf.elte.hu>
+%% Version 2.1, 2024/04/26
+%% Copyright (c) 2013-2024 Máté Cserép <mcserep@inf.elte.hu>
 %%
 %% Permission is hereby granted, free of charge, to any person obtaining a copy
 %% of this software and associated documentation files (the "Software"), to deal
@@ -22,10 +22,10 @@
 %% SOFTWARE.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{elteiktdk}[2023/04/10 ELTE FI TDK thesis template]
+\ProvidesClass{elteiktdk}[2024/04/26 ELTE FI TDK thesis template]
 
 % Load document class
-\LoadClassWithOptions{elteikthesis}[2023/04/10]
+\LoadClassWithOptions{elteikthesis}[2024/04/26]
 % ------------------------------
 
 % ------------------------------
