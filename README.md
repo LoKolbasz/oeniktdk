@@ -20,16 +20,13 @@ The template supports producing both Hungarian and English theses, which can be 
 # (PDF file contains incorrect references yet)
 pdflatex elteiktdk_en.tex
 # Generate bibliography
-bibtex elteiktdk_en
+biber elteiktdk_en
 # Generate nomenclature (optional)
 makeindex -s nomencl.ist -t elteiktdk_en.nlg \
   -o elteiktdk_en.nls elteiktdk_en.nlo
 # Generate final PDF file
 pdflatex elteiktdk_en.tex
-pdflatex elteiktdk_en.tex
 ```
-
-**Note:** in case the bibliography changes, executing `bibtex`, then `pdflatex` _twice_ is required to generate to correct references in the PDF output.
 
 Compilation might be carried out through a preferred IDE (e.g. [TexStudio](https://www.texstudio.org/)), given the same commands should be executed.
 
