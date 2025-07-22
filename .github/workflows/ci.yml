@@ -14,16 +14,16 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: |
-            elteiktdk_hu.tex
-            elteiktdk_en.tex
+            oeniktdk_hu.tex
+            oeniktdk_en.tex
           latexmk_shell_escape: true
       - if: ${{ matrix.engine == 'lualatex' }}
         name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
           root_file: |
-            elteiktdk_hu.tex
-            elteiktdk_en.tex
+            oeniktdk_hu.tex
+            oeniktdk_en.tex
           latexmk_shell_escape: true
           latexmk_use_lualatex: true
       - name: Upload the compiled pdf
@@ -31,6 +31,6 @@ jobs:
         with:
           name: tdk-${{ matrix.engine }}
           path: |
-            elteiktdk_hu.pdf
-            elteiktdk_en.pdf
+            oeniktdk_hu.pdf
+            oeniktdk_en.pdf
           if-no-files-found: error
