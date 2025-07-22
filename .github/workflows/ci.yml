@@ -1,5 +1,9 @@
 name: Build LaTeX document
-on: [push, pull_request]
+on: 
+  workflow_dispatch:
+  pull_request:
+  registry_package:
+    types: [published]
 jobs:
   build_latex:
     strategy:
