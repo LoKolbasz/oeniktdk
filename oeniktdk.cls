@@ -22,10 +22,10 @@
 %% SOFTWARE.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{elteiktdk}[2024/04/26 ELTE FI TDK thesis template]
+\ProvidesClass{oeniktdk}[2024/04/26 OE NIK TDK thesis template]
 
 % Load document class
-\LoadClassWithOptions{elteikthesis}[2024/04/26]
+\LoadClassWithOptions{oenikthesis}[2024/04/26]
 % ------------------------------
 
 % ------------------------------

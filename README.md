@@ -6,7 +6,7 @@ See [Hungarian version](README_hu.md).
 
 # ELTE FI TDK thesis template
 
-The [elteiktdk_en.tex](elteiktdk_en.tex) and the produced [elteiktdk_en.pdf](elteiktdk_en.pdf) serves as an example of usage.
+The [elteiktdk_en.tex](oeniktdk_en.tex) and the produced [oeniktdk_en.pdf](oeniktdk_en.pdf) serves as an example of usage.
 This class template enforces the required formatting rules for TDK theses and generates the cover and title page given on the provided metadata.
 The formatting rules are defined to meet the requirements for TDK theses submitted at the Eötvös Loránd University, Faculty of Informatics. This also fits the formatting requirements of the Computer Science Section of the National Conference of Scientific Students' Associations (OTDK). With sufficient modifications the template should be usable for TDK theses at other national and faculty level sections, too.
 
@@ -16,16 +16,16 @@ The template supports producing both Hungarian and English theses, which can be 
 ## Compilation
 
 ```bash
-# Generate elteiktdk_en.aux file
+# Generate oeniktdk_en.aux file
 # (PDF file contains incorrect references yet)
-pdflatex elteiktdk_en.tex
+pdflatex oeniktdk_en.tex
 # Generate bibliography
-biber elteiktdk_en
+biber oeniktdk_en
 # Generate nomenclature (optional)
-makeindex -s nomencl.ist -t elteiktdk_en.nlg \
-  -o elteiktdk_en.nls elteiktdk_en.nlo
+makeindex -s nomencl.ist -t oeniktdk_en.nlg \
+  -o oeniktdk_en.nls oeniktdk_en.nlo
 # Generate final PDF file
-pdflatex elteiktdk_en.tex
+pdflatex oeniktdk_en.tex
 ```
 
 Compilation might be carried out through a preferred IDE (e.g. [TexStudio](https://www.texstudio.org/)), given the same commands should be executed.
@@ -33,7 +33,7 @@ Compilation might be carried out through a preferred IDE (e.g. [TexStudio](https
 ## Syntax highlighting of code blocks
 
 The minted package is also supported for syntax  highlighting, for details see the [documentation](https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted).
-For its usage the Python interpreter and the `Pygments` package must be installed as a prerequisite, then you should uncomment its loading at the beginning of `elteiktdk_en.tex`.
+For its usage the Python interpreter and the `Pygments` package must be installed as a prerequisite, then you should uncomment its loading at the beginning of `oeniktdk_en.tex`.
 
 ## Overleaf
 

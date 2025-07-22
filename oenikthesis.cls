@@ -29,7 +29,7 @@
 %% to the original package.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{elteikthesis}[2024/04/26 ELTE FI bachelor and master thesis template]
+\ProvidesClass{oenikthesis}[2024/04/26 OE NIK bachelor and master thesis template]
 
 % LaTeX programming tools
 \RequirePackage{etoolbox}

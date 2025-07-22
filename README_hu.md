@@ -1,6 +1,6 @@
 # ELTE IK TDK-dolgozat sablon
 
-A [elteiktdk_hu.tex](elteiktdk_hu.tex) és a belőle előálló [elteiktdk_hu.pdf](elteiktdk_hu.pdf) szolgál kiindulási példaként.
+A [oeniktdk_hu.tex](oeniktdk_hu.tex) és a belőle előálló [oeniktdk_hu.pdf](oeniktdk_hu.pdf) szolgál kiindulási példaként.
 A sablon alkalmazza a TDK-dolgozatokra vonatkozó formai előírásokat, valamint elkészíti a megadott metaadatok alapján a fedő- és a címlapot.
 A formai megkötések az ELTE Informatikai Karán, valamint az OTDK Informatika Tudományi Szekcióban megszokottak, de általánosan (szükség esetén megfelelő módosításokkal) alkalmazható más szekciók és más egyetemek TDK dolgozataihoz is.
 
@@ -10,16 +10,16 @@ A sablon magyar és angol nyelvű dokumentumok elkészítését is támogatja (l
 ## Fordítás
 
 ```bash
-# elteiktdk_hu.aux fájl generálása
+# oeniktdk_hu.aux fájl generálása
 # (PDF fájl még hibás hivatkozásokat fog tartalmazni)
-pdflatex elteiktdk_hu.tex
+pdflatex oeniktdk_hu.tex
 # Irodalomjegyzék generálása
-biber elteiktdk_hu
+biber oeniktdk_hu
 # Jelölésjegyzék generálása (ha szükséges)
-makeindex -s nomencl.ist -t elteiktdk_hu.nlg \
-  -o elteiktdk_hu.nls elteiktdk_hu.nlo
+makeindex -s nomencl.ist -t oeniktdk_hu.nlg \
+  -o oeniktdk_hu.nls oeniktdk_hu.nlo
 # Végleges PDF fájl generálása
-pdflatex elteiktdk_hu.tex
+pdflatex oeniktdk_hu.tex
 ```
 
 A fordításhoz tetszőleges fejlesztő környezet is használható (pl. [TexStudio](https://www.texstudio.org/)), ugyanezen utasítások kiadásával.
@@ -27,7 +27,7 @@ A fordításhoz tetszőleges fejlesztő környezet is használható (pl. [TexStu
 ## Kódblokkok szintaxis kiemelése
 
 A *minted* csomag támogatott a forráskódok szedésére és szintaxis kiemelésére, részletekért ld. a [dokumentációt](https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted).
-Használatához szükséges a Python interpreter és a `Pygments` csomag telepítése, majd `elteiktdk_hu.tex` fájl elején a betöltésének az engedélyezése.
+Használatához szükséges a Python interpreter és a `Pygments` csomag telepítése, majd `oeniktdk_hu.tex` fájl elején a betöltésének az engedélyezése.
 
 ## Overleaf
 
