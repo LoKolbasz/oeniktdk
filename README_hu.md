@@ -1,4 +1,4 @@
-# ELTE IK TDK-dolgozat sablon
+# ÓE NIK TDK-dolgozat sablon
 
 A [oeniktdk_hu.tex](oeniktdk_hu.tex) és a belőle előálló [oeniktdk_hu.pdf](oeniktdk_hu.pdf) szolgál kiindulási példaként.
 A sablon alkalmazza a TDK-dolgozatokra vonatkozó formai előírásokat, valamint elkészíti a megadott metaadatok alapján a fedő- és a címlapot.
@@ -28,11 +28,6 @@ A fordításhoz tetszőleges fejlesztő környezet is használható (pl. [TexStu
 
 A *minted* csomag támogatott a forráskódok szedésére és szintaxis kiemelésére, részletekért ld. a [dokumentációt](https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted).
 Használatához szükséges a Python interpreter és a `Pygments` csomag telepítése, majd `oeniktdk_hu.tex` fájl elején a betöltésének az engedélyezése.
-
-## Overleaf
-
-Az *Overleaf* egy ingyenes, könnyen használható, kollaboratív, online LaTeX szerkesztő. Hasonló, mint például a Google Docs, de LateX dokumentumokhoz.
-Az ELTE IK TDK-dolgozat sablon legfrissebb kiadását [Overleafen is megtalálod](https://www.overleaf.com/latex/templates/tdk-thesis-template-elte-fi/mxnndxkmdmkd).
 
 ## Fontosabb függőségi csomagok
 
