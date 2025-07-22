@@ -1,4 +1,4 @@
-![CI status](https://github.com/mcserep/elteiktdk/workflows/Build%20LaTeX%20document/badge.svg)
+[![CI status](https://github.com/LoKolbasz/oeniktdk/actions/workflows/ci.yml/badge.svg)](https://github.com/LoKolbasz/oeniktdk/actions/workflows/ci.yml)
 [![Overleaf template](https://img.shields.io/badge/Overleaf-TDK%20Thesis%20Template%20(ELTE%20FI)-brightgreen)](https://www.overleaf.com/latex/templates/tdk-thesis-template-elte-fi/mxnndxkmdmkd)
 
 
